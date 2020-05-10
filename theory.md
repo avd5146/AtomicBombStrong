@@ -52,6 +52,6 @@ P.P.S.: I still need to change those old passwords. :P
 [ankurdalal.com](https://ankurdalal.com)
 
 ---
-Use of this idea or the name `AtomicBombStrong` without permission shall be considered as violation of intellectual proprty copyright.
+Use of this idea or the name `AtomicBombStrong` without permission shall be considered as violation of intellectual property copyright.
 
 Copyright © 2020 Ankur Dalal - All Rights Reserved.
