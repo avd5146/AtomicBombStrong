@@ -18,6 +18,7 @@ The resulting key must be super strong. (Duh.)
 Let's get serious.
 * It must be `reproducible`.
 * It must be `uni-directional`.
+* Every `[key:value]` pair must be unique.
 * It must have an element of interest.
 * It must be easy enough to reproduce without using the app, on-the-go if needed (provided you have average mental math capabilites). This one is my personal favourite.
 
