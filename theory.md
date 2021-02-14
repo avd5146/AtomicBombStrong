@@ -44,7 +44,38 @@ The app can work with or without an external encoder. The encoder implemented he
 
 ## Try it for yourself!
 
-`Coming soon...` Yes, I am eagerly waiting for it to be here too.
+Finally, the [app is live here](http://dynamic.ankurdalal.com/php/runner.php)!
+
+For demo, enter 'demo' without quotes (case sensitive) in `hash` and `reaction` field. Enter your word in the `phrase` field.
+
+The demo uses a neutralization reaction `K.O.H + H.Br -> K.Br + H.2.O` as the cipher.
+
+Four operations follow.
+
+1. Atomic number. `(KOH = 28)`
+
+2. A reactant itself. `(HBr)`
+
+3. Producting alpha number map.
+
+The input characters are mapped to reacting elements. Based on the products of the reaction, the characters are substitued back. For part 3, the characters are mapped to a number.
+
+`K->d     O->e     H->m    Br->o`
+
+```
+Character to number map.
+0-9 as is;
+a-z = 10-35; 97-122
+A-Z = 36-61; 65-90
+other characters not mapped.
+```
+Hence, if we provide the thw `word` as `demo`, we get `1324`. `K->d->13` & `Br->o->24`
+
+4. Concatenate alphabets.
+
+The alphabets are put together based on the producting compound. `H2O -> mme`.
+
+That's all of it. I hope you enjoy it!
 
 P.S.: I was thinking of using the name PassStrong for this app but looks like something of that sort with the same name already exists (a physical keygen actually). Nevertheless, hopes are still high and honestly, it was fun development.
 
